@@ -8,7 +8,7 @@ const App = () => {
         <Router>
             <div className="app">
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/react-mini-proj" element={<Home />} />
                     <Route path="/game" element={<Game />} />
                     <Route path="/calculator" element={<Calculator />} />
                     <Route path="/random" element={<RandomGenerator />} />

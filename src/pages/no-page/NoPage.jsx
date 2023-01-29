@@ -7,7 +7,7 @@ const NoPage = () => {
         <div className="no-page">
             <h1>404</h1>
             <h2>Page Not Found</h2>
-            <p>The Page you are looking for doesn't exist or an other error occured. Go to <Link to="/">Home</Link></p>
+            <p>The Page you are looking for doesn't exist or an other error occured. Go to <Link to="/react-mini-proj">Home</Link></p>
         </div>
     );
 };

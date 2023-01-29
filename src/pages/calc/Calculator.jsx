@@ -123,7 +123,7 @@ const Calculator = () => {
 
     return (
         <div className="calculator">
-            <span><Link to="/">&lt;---Back to home</Link></span>
+            <span><Link to="/react-mini-proj">&lt;---Back to home</Link></span>
             <div className="calculator-wrapper">
                 <Display value={calc.num ? calc.num : calc.res} />
                 <ButtonBox clickHandler={getClickHandler}/>

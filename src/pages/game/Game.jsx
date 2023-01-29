@@ -70,7 +70,7 @@ const Game = () => {
                 ))}
                 </ul>
                 <div className="button-group">
-                    <button><Link to="/">Home</Link></button>
+                    <button><Link to="/react-mini-proj">Home</Link></button>
                     <button onClick={() => (setIsOver(true))}>End Game</button>
                 </div>
             </div>

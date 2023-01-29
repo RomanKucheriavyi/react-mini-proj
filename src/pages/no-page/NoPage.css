@@ -1,0 +1,25 @@
+.no-page > h1{
+    font-size: 10rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.no-page > h2{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.no-page > p{
+    text-align: center;
+    font-size:1rem;
+}
+
+.no-page{
+    margin: 0 auto;
+    margin-top: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.no-page > p > a {
+    color: blue;
+}

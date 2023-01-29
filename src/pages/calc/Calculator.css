@@ -1,0 +1,27 @@
+.calculator {
+	background-color: #150050;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+}
+
+.calculator-wrapper {
+	width: 340px;
+	height: 540px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+.calculator > span {
+	position: absolute;
+    top: 15px;
+    left: 0;
+	font-size: 2rem;
+}
+
+.calculator > span > a {
+	color: white;
+}

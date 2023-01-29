@@ -1,0 +1,17 @@
+.button-box {
+	width: 100%;
+	height: calc(100% - 110px);
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.btn-equals {
+	background: orange;
+    border-radius: 50%;
+}
+
+.button-box>button:nth-child(-n+4), .btn-mult, .btn-minus, .btn-plus, .btn-percent{
+	color: orange;
+}
+

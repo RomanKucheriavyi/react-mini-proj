@@ -1,0 +1,74 @@
+.trivia {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    user-select: none;
+}
+
+.question {
+    width: 80%;
+    text-align: center;
+    background: black;
+    border-radius: 15px;
+    border: 2px solid blue;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.answers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer {
+    width: 40%;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    text-align: center;
+    background: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+} 
+
+.answer:hover,
+.answer.active {
+    background: orange;
+}
+
+.answer.correct {
+    animation: correct 3s ease forwards;
+}
+
+@keyframes correct {
+    0%,
+    22%,
+    42% {
+    background: orange;
+    }
+    60%,
+    100% {
+        background: green;
+    }
+}
+
+.answer.wrong {
+    animation: wrong 3s ease forwards;
+}
+
+@keyframes wrong {
+    0%,
+    22%,
+    42%,
+    60% {
+        background: orange;
+    }
+    100% {
+        background: red;
+    }
+}

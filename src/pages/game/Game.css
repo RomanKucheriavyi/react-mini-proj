@@ -1,0 +1,72 @@
+.game {
+    display: flex;
+    color:white;
+    height: 100vh;
+}
+
+.main {
+    width: 85%;
+}
+
+.info-panel {
+    width: 15%;
+    display: grid;
+    align-content: center;
+    background-color: black;
+}
+
+.money-list {
+    color: orange;
+    list-style: none;
+    font-size: 1.5rem;
+    height: 80%;
+}
+
+.money-list > li {
+    padding-left: 35px;
+}
+
+.money-list>li:nth-child(5n+1) {
+    color: white;
+}
+
+.money-list__amount{
+    margin-left: 2rem;
+}
+
+
+.money-list__item, .money-list__item_active {
+    display: flex;
+    align-items: center;
+}
+
+.money-list__item_active {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.money-list__number {
+    width: 15%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group > button {
+    min-width: 95px;
+    min-height: 60px;
+    background: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+.main > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem
+}
+
